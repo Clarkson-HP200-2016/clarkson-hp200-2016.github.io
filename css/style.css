@@ -10,10 +10,10 @@ body {
 	max-width: 100%;
 }
 
-body, html, .screen-height {
+/*body, html, .screen-height {
 	min-height: 100vh!important;
 	height: 100vh;
-}
+}*/
 
 img {
 	max-width: 100%;

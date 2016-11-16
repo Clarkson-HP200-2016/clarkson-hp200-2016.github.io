@@ -57,12 +57,11 @@
 		google.maps.event.addDomListener(window, 'load', init_map);
 
 		// bg image for homepage
-		// figure out later
-		// $('.screen-height').height($(window).height());
-		//
-		// $(window).resize(function() {
-		// 	$('.screen-height').height($(window).height());
-		// });
+		$('.screen-height').height($(window).height());
+
+		$(window).resize(function() {
+			$('.screen-height').height($(window).height());
+		});
 
 		if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
 			$('#home').css({'background-attachment': 'scroll'});
