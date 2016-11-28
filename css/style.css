@@ -353,7 +353,7 @@ p {
 
 /*portaits*/
 #person_a {
-	background-image: url('../img/face-1.png');
+	background-image: url('../img/jake.jpg');
 	background-position: 50% 50%;
 	width: 128px;
 	height: 128px;
@@ -363,11 +363,15 @@ p {
 }
 
 #person_b {
-	background-image: url('../img/face-2.png');
+	background-image: url('../img/rebecca.jpg');
 	background-position: 50% 50%;
 	width: 128px;
 	height: 128px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 0;
+}
+
+.img-circle {
+	border-radius: 50%;
 }
