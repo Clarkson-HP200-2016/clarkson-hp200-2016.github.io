@@ -7,6 +7,7 @@ body {
 	font: 300 14px/1.8 'Raleway', sans-serif;
 	color: #2c3e50;
 	max-width: 100%;
+	overflow: scroll;
 }
 
 img {
@@ -39,7 +40,7 @@ a {
 	transition: all 0.2s ease-in-out;
 }
 
-a:hover, a:focus {
+a:hover, a:focus, a:active {
 	text-decoration: none;
 	color: #ecf0f1;
 	background-color: #16a085;
@@ -227,6 +228,14 @@ p {
 
 .navbar-brand {
 	font-weight: 500;
+}
+
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+	background-color: #16a085;
+	outline: 0;
+	color: #ecf0f1;
 }
 
 .navbar-custom .navbar-nav > li > a {
