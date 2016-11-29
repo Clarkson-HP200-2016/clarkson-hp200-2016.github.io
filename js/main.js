@@ -67,5 +67,9 @@
 			$('#home').css({'background-attachment': 'scroll'});
 		}
 
+
+		// code for carousel
+		$('#stories').carousel();
+
 	});
 })(jQuery);

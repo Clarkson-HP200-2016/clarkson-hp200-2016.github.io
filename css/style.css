@@ -47,7 +47,8 @@ a {
 
 a:hover, a:focus {
 	text-decoration: none;
-	color: #27ae60;
+	color: #ecf0f1;
+	background-color: #16a085;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -62,6 +63,10 @@ p {
 	margin: 0 0 25px;
 	font-size: 18px;
 	line-height: 1.5;
+}
+
+.centered {
+	text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -374,4 +379,77 @@ p {
 
 .img-circle {
 	border-radius: 50%;
+}
+
+.caption {
+	margin-top: 10px;
+	margin-bottom: 0px;
+	text-transform: capitalize;
+	text-align: center;
+	letter-spacing: 1px;
+	font-size: 1.5em;
+}
+
+.caption .social-links {
+	margin-top: 0px;
+}
+
+.caption .social-links li {
+	display: inline-block;
+	margin: 5px;
+}
+
+.caption .social-links a {
+	border: 1px solid rgba(41, 128, 185, 0.4);
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	color: #2980b9;
+}
+
+.caption .social-links a:hover, a:focus {
+	color: #ecf0f1;
+	background-color: #2980b9;
+}
+
+/*Testimonials*/
+.profile-circle {
+	border-radius: 50%;
+	background-position: 50% 50%;
+	width: 128px;
+	height: 128px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 0;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.quote {
+	text-align: center;
+	color: #ecf0f1;
+	margin-bottom: 30px;
+}
+
+#stories .carousel-indicators {
+	list-style: none;
+	/*weird hacky fix*/
+	bottom: -50px;
+	margin-bottom: 20px;
+	/*end weird hacky fix*/
+	text-align: center;
+}
+
+#stories .carousel-indicators li {
+	display: inline-block;
+	margin: 5px;
+	border: 1px solid rgba(41, 128, 185, 0.4);
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+#stories .carousel-indicators li.active {
+	background-color: rgba(41, 128, 185, 1.0);
 }
