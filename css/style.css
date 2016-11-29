@@ -6,14 +6,8 @@
 body {
 	font: 300 14px/1.8 'Raleway', sans-serif;
 	color: #2c3e50;
-	overflow-x: hidden;
 	max-width: 100%;
 }
-
-/*body, html, .screen-height {
-	min-height: 100vh!important;
-	height: 100vh;
-}*/
 
 img {
 	max-width: 100%;
