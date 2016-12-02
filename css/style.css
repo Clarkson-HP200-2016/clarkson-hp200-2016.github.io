@@ -129,13 +129,13 @@ p {
 }
 
 .home-overlay {
-	background-color: rgba(22, 160, 133, 0.2);
+	background-color: rgba(22, 160, 133, 0.3);
   /*background-color: rgba(44, 62, 80, 0.3);*/
-  /*background-image: url("../img/pattern.png");*/
+  background-image: url("../img/pattern.png");
   background-repeat: repeat;
   height: 100%;
   left: 0;
-  position: absolute;
+  position: static;
   top: 0;
   width: 100%;
   z-index: 0;
