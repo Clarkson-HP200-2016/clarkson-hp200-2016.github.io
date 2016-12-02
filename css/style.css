@@ -7,7 +7,7 @@ body {
 	font: 300 14px/1.8 'Raleway', sans-serif;
 	color: #2c3e50;
 	max-width: 100%;
-	overflow: scroll;
+	overflow: hidden;
 }
 
 img {

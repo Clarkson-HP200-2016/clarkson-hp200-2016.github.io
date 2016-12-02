@@ -72,4 +72,13 @@
 		$('#stories').carousel();
 
 	});
+
+	//preloader
+	$(window).on('load', function (){
+		$('#preloader span').fadeOut();
+		$('#preloader').delay(350).fadeOut('slow', function() {
+			$('body').css({'overflow-y': 'scroll'});
+		});
+	});
+
 })(jQuery);
