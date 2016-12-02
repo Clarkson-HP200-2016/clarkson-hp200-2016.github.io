@@ -8,6 +8,7 @@ body {
 	color: #2c3e50;
 	max-width: 100%;
 	overflow: hidden;
+	-webkit-overflow-scrolling: touch;
 }
 
 img {
@@ -215,7 +216,7 @@ p {
 	background-color: #ffffff;
 	position: relative;
 	width: 100%;
-	z-index: 998;
+	z-index: 98;
 }
 
 .navbar-custom {
@@ -290,7 +291,7 @@ p {
 .scroll-up {
 	position: fixed;
 	display: none;
-	z-index: 999;
+	z-index: 99;
 	bottom: 2em;
 	right: 2em;
 }
