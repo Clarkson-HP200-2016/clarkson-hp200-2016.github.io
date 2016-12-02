@@ -307,6 +307,7 @@ p {
 }
 
 .scroll-up a:hover,
+.scroll-up a:focus,
 .scroll-up a:active {
 	background-color: #16a085;
 	outline: 0;
