@@ -77,7 +77,7 @@
 	$(window).on('load', function (){
 		$('#preloader span').fadeOut();
 		$('#preloader').delay(350).fadeOut('slow', function() {
-			$('body').css({'overflow-y': 'scroll'});
+			$('body').css({'overflow-y': 'visible'});
 		});
 	});
 
