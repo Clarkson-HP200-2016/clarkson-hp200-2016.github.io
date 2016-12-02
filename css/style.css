@@ -117,7 +117,7 @@ p {
 }
 
 /*Intro Style*/
-#home {
+/*#home {
 	background-image: url("../img/bg.jpg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -127,7 +127,7 @@ p {
 	-o-background-size: cover;
 	background-size: cover;
 	padding: 0;
-}
+}*/
 
 .home-overlay {
 	background-color: rgba(22, 160, 133, 0.3);
@@ -259,32 +259,9 @@ p {
 }
 
 /*images*/
-#image_1 {
-	background-image: url("../img/img1.jpeg");
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
-	height: 10%;
-	width: 100%;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	padding: 0;
-}
-
-#image_2 {
-	background-image: url("../img/img2.jpg");
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
-	height: 10%;
-	width: 100%;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	padding: 0;
+.parallax-window {
+	min-height: 400px;
+	background: transparent;
 }
 
 /*scroll up*/

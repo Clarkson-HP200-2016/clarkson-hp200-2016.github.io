@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Zander Blasingame">
     <title>Zenda Farms</title>
 
     <!-- Bootstrap -->
@@ -11,7 +12,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 		<!-- Custom style -->
-		<link rel="stylesheet" href="css/style.css">
+		<!-- <link rel="stylesheet" href="css/style.css"> -->
 
 		<!-- pre loader style -->
 		<link rel="stylesheet" href="css/preloader.css">
@@ -25,6 +26,8 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+		<!-- <script src="js/modernizr.custom.js"></script> -->
   </head>
   <body>
 		<!-- pre loader -->
@@ -37,10 +40,8 @@
 
 
 		<!-- Home header -->
-		<section id="home" class="pfblock-image screen-height">
-			<!-- data-center="background-position: 50% 0px;"
-			data-top-bottom="background-position: 50% -100px;"
-			anchor-target="#home"> -->
+		<section id="home" class="pfblock-image parallax-window screen-height"
+			data-parallax="scroll" data-image-src="img/bg.jpg">
 			<div class="home-overlay">
 				<div class="intro">
 					<div class="start">We are Zenda Farms and we</div>
@@ -120,8 +121,8 @@
 			</div>
 		</section>
 
-		<section id="image_1" class="pfblock-image">
-		</section>
+		<!-- interim image -->
+		<div class="parallax-window", data-parallax="scroll" data-image-src="img/img1.jpeg"></div>
 
 		<section id="meetus" class="pfblock pfblock-gray">
 			<div class="container">
@@ -231,8 +232,8 @@
 			</div>
 		</section>
 
-		<section id="image_2" class="pfblock-image">
-		</section>
+		<!-- interim image -->
+		<div class="parallax-window", data-parallax="scroll" data-image-src="img/img2.jpg"></div>
 
 		<section id="contact" class="pfblock pfblock-gray">
 			<div class="container">
@@ -289,6 +290,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+		<!-- parallax scrolling -->
+		<script src="js/parallax.min.js"></script>
     <!-- Skrollr Plugin -->
     <script src="js/skrollr.min.js"></script>
 		<!-- sticky js -->
