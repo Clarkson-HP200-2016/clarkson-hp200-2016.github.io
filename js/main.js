@@ -3,9 +3,6 @@
 
 (function($) {
 	$(document).ready(function () {
-		// Initialize skrollr
-		var s = skrollr.init();
-
 		//smooth scrolling
 		$('a[href*=#]').bind("click", function(e){
 			var anchor = $(this);
@@ -70,9 +67,9 @@
 			$('.screen-height').height($(window).height());
 		});
 
-		if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
-			$('#home').css({'background-attachment': 'scroll'});
-		}
+		// if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
+		// 	$('#home').css({'background-attachment': 'scroll'});
+		// }
 
 
 		// code for carousel
