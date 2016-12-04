@@ -30,13 +30,6 @@
 			offset: 70
 		});
 
-		//parallax
-		// if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
-		// 	$('.parallax').css({'background-attachment': 'scroll'});
-		// } else {
-		// 	$('.parallax').parallax('50%', 0.1);
-		// }
-
 		//google maps
 		function init_map() {
 			var location = new google.maps.LatLng(44.231505, -76.109560);
@@ -70,7 +63,6 @@
 		// if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
 		// 	$('#home').css({'background-attachment': 'scroll'});
 		// }
-
 
 		// code for carousel
 		$('#stories').carousel();
