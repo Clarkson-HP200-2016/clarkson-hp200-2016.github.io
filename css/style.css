@@ -426,6 +426,7 @@ p {
 #stories .carousel-indicators li {
 	display: inline-block;
 	margin: 5px;
+	font-size: 100px;
 	border: 1px solid rgba(41, 128, 185, 0.4);
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
