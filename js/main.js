@@ -60,7 +60,7 @@
 				$(this).width(new_width);
 
 				// this code fixes left offset
-				if ($(this).is('.timeline li:nth-child(even) div')) {
+				if ($(this).is('.timeline li:nth-child(even) div') && mq.matches) {
 					var new_offset = -1 * (new_width + 65);
 					$(this).css('left', new_offset);
 				}
