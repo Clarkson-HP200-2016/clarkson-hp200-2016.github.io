@@ -44,7 +44,7 @@
 
 		// listener
 		$(window).on('load resize scroll', function() {
-			$('.timeline li').each(function(index, element) {
+			$('.view-animate').each(function(index, element) {
 				if (is_in_viewport(element)) {
 					$(this).addClass('in-view');
 				}
@@ -60,8 +60,8 @@
 				$(this).width(new_width);
 
 				// this code fixes left offset
-				if ($(this).is('.timeline li:nth-child(even) div') && mq.matches) {
-					var new_offset = -1 * (new_width + 65);
+				if ($(this).is('.timeline li:nth-child(even) div')) {
+					var new_offset = mq.matches ? -1 * (new_width + 65) : 45;
 					$(this).css('left', new_offset);
 				}
 			});
