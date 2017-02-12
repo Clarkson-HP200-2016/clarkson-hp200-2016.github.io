@@ -83,26 +83,6 @@
 			</nav>
 		</header>
 
-		<!-- About Us -->
-		<!-- <section id="aboutus" class="pfblock pfblock-gray">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12">
-						<h2 class="pfblock-title">Our Story</h2>
-						<div class="pfblock-line"></div>
-						<p>
-							Zenda was a dairy and beef farm that operated through the 1950s. Now, its agricultural history is preserved for future generations to discover and its pastures and hay meadows are conserved for nesting grassland birds.
-							Northern New York hosts some of the highest quality habitat for grassland birds in the northeastern United States. Many of these species are in serious decline in eastern North America, so keeping the meadows open is an integral part of Zenda’s management plan.
-							The house and boathouse were built by Martha Reed Mitchell. She sold the property to James Hackett, a native of Wolfe Island who was an actor in the early 20th Century. He named the property after his favorite role, the title character in the 1913 film The Prisoner of Zenda.
-							In 1939, Merle Youngs purchased the property. Mr. Youngs, an entrepreneur who owned the Youngs Rubber Company, slowly acquired neighboring farms and created a large state-of-the-art dairy and beef farm. He implemented new management techniques and new equipment: this was the site of the first automatic bottling plant in the region.
-							Zenda is now the home of the annual Community Picnic at the beginning of the summer season, as well as numerous TILTreks, KidsTreks and often, TILTKids Camp. A local farmer grazes cows on the pastures and cuts the hay from the meadows. The mowing takes place after August 1st to allow nesting grassland birds to fledge their young.
-							TILT's management plan for the future of Zenda Farms is to establish the Preserve as a model for land conservation through community involvement and learning within its ecologically diverse and culturally historic farm setting.
-						</p>
-					</div>
-				</div>
-			</div>
-		</section> -->
-
 		<!-- New vertical responsive timeline test -->
 		<section id="aboutus" class="pfblock pfblock-gray">
 			<div class="container">
@@ -143,26 +123,6 @@
 			</div>
 		</section>
 
-		<!-- <section id="programs" class="pfblock">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12">
-						<h2 class="pfblock-title">Our Works</h2>
-						<div class="pfblock-line"></div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-6">
-						<h3>Proj 1</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					</div>
-					<div class="col-sm-6">
-						<h3>Proj 2</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					</div>
-				</div>
-			</div>
-		</section> -->
 		<section id="programs" class="pfblock">
 			<div class="container">
 				<div class="row">
@@ -174,7 +134,8 @@
 				<div class="row">
 					<div class="col-sm-6 col-md-4 wrapper">
 						<div class="project-block view-animate">
-							<div class="overlay">
+							<div class="overlay" data-toggle="modal"
+								data-target="#observation-tower">
 								<img src="img/proj1.jpeg">
 									<i class="fa fa-plus fa-3x"></i>
 								</img>
@@ -187,7 +148,8 @@
 					</div>
 					<div class="col-sm-6 col-md-4 wrapper">
 						<div class="project-block view-animate">
-							<div class="overlay">
+							<div class="overlay" data-toggle="modal"
+								data-target="#apple-orchard">
 								<img src="img/proj2.jpeg">
 									<i class="fa fa-plus fa-3x"></i>
 								</img>
@@ -200,7 +162,8 @@
 					</div>
 					<div class="col-sm-6 col-md-4 wrapper">
 						<div class="project-block view-animate">
-							<div class="overlay">
+							<div class="overlay" data-toggle="modal"
+								data-target="#hiking-trail">
 								<img src="img/proj3.jpg">
 									<i class="fa fa-plus fa-3x"></i>
 								</img>
@@ -214,6 +177,53 @@
 				</div>
 			</div>
 		</section>
+
+		<!-- Portfolio modals -->
+		<div class="portfolio-modal modal fade" id="observation-tower", role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<span class="modal-close">X</span>
+					</div>
+					<div class="modal-body">
+						<h2>Observation Tower</h2>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="portfolio-modal modal fade" id="apple-orchard", role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<span class="modal-close">X</span>
+					</div>
+					<div class="modal-body">
+						<h2>Apple Orchard</h2>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="portfolio-modal modal fade" id="hiking-trail", role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<span class="modal-close">X</span>
+					</div>
+					<div class="modal-body">
+						<h2>Hiking Trail</h2>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
 
 		<!-- interim image -->
 		<!-- <div class="parallax-window", data-parallax="scroll" data-image-src="img/img1.jpeg"></div> -->

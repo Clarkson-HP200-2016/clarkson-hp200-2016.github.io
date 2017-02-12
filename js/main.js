@@ -65,7 +65,18 @@
 					$(this).css('left', new_offset);
 				}
 			});
-		})
+		});
+
+		// modal settings
+		$('.portfolio-modal').modal({
+			'backdrop': 'static',
+			'show': false
+		});
+
+		// close modal
+		$('.portfolio-modal .modal-close').on('click', function() {
+			$('.portfolio-modal').modal('hide');
+		});
 
 		// google maps
 		function init_map() {
