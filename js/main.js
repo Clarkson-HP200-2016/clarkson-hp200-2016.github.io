@@ -73,6 +73,15 @@
 			'show': false
 		});
 
+		// var modal = new Custombox.modal({
+		// 	content: {
+		// 		effect: 'fadein',
+		// 		// target: '#observation-tower'
+		// 	}
+		// });
+		//
+		// modal.open();
+
 		// close modal
 		$('.portfolio-modal .modal-close').on('click', function() {
 			$('.portfolio-modal').modal('hide');
