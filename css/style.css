@@ -603,7 +603,7 @@ p {
 	background-color: #2980b9;
 }
 
-/*Testimonials*/
+/* Testimonials & gallery */
 .profile-circle {
 	border-radius: 50%;
 	background-position: 50% 50%;
@@ -623,7 +623,7 @@ p {
 	margin-bottom: 30px;
 }
 
-#stories .carousel-indicators {
+.carousel-indicators {
 	list-style: none;
 	/*weird hacky fix*/
 	bottom: -50px;
@@ -632,7 +632,7 @@ p {
 	text-align: center;
 }
 
-#stories .carousel-indicators li {
+.carousel-indicators li {
 	display: inline-block;
 	margin: 5px;
 	font-size: 100px;
@@ -642,6 +642,19 @@ p {
 	border-radius: 50%;
 }
 
-#stories .carousel-indicators li.active {
+.carousel-indicators li.active {
 	background-color: rgba(41, 128, 185, 1.0);
+}
+
+.gallery-photo {
+	border-radius: 0%;
+	background-position: 50% 50%;
+	width: 512px;
+	height: 288px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 0;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
 }
