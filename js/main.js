@@ -123,6 +123,7 @@
 
 		// code for carousel
 		$('#stories').carousel();
+		$('#gallery-photos').carousel();
 
 	});
 
