@@ -34,3 +34,33 @@ Add the following under the `<ul>` tag
 
 Timeline
 --------
+
+To add a new entry for the time line look for the tags
+```html
+<div class="timeline">
+	<ul>
+```
+
+Insert the following code where appropriate
+```html
+<li class="view-animate">
+	<div class="timeline-entry">
+		<span class="time-date">Example 20XX</span>
+		<p>
+			My text
+		</p>
+	</div>
+</li>
+```
+
+Programs
+--------
+
+This bit is a bit more complicated as there is two components, the card and the modal.
+First we'll add the card. Look for the section of code
+TODO
+
+
+Testimonials
+------------
+
