@@ -79,9 +79,9 @@ Look for the following section of code
 
 In the ordered list insert the following code
 ```html
-<li data-target="#stories" data-slide-to="n+1"></li>
+<li data-target="#stories" data-slide-to="n"></li>
 ```
-where `n` is the number of elements in the list before insertion. Additionally, the clas `active` denotes which carousel item is initially active
+where `n` is the number of elements in the list before insertion. Additionally, the class `active` denotes which carousel item is initially active
 
 ### Carousel Items
 
@@ -103,9 +103,33 @@ To add a new carsouel item look for the following div tag, `<div class="carousel
 Gallery
 -------
 
+To add a new testimonial there are two sections of code to add: the carousel indicator and the photo itself.
+
 ### Gallery Indicator
 
-### Gallery Item
+Look for the following section of code
+```html
+<div id="gallery-photos" class="carousel slide">
+	<ol class="carousel-indicators">
+		<li data-target="#gallery-photos" data-slide-to="0" class="active"></li>
+		<li data-target="#gallery-photos" data-slide-to="1"></li>
+	</ol>
+```
+
+In the ordered list insert the following code
+```html
+<li data-target="#stories" data-slide-to="n"></li>
+```
+where `n` is the number of elements in the list before insertion. Additionally, the class `active` denotes which carousel item is initially active
+
+### Gallery Items
+
+To add a new carsouel item look for the following div tag, `<div class="carousel-inner">`. Inside the tag add the following code
+```html
+<div class="item">
+	<div class="gallery-photo" style="background-image: url('path-to-image')"></div>
+</div>
+```
 
 Contact
 -------
