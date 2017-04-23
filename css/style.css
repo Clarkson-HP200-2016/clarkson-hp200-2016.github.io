@@ -548,30 +548,6 @@ p {
 }
 
 /*portaits*/
-#person_a {
-	background-image: url('../img/jake.jpg');
-	background-position: 50% 50%;
-	width: 128px;
-	height: 128px;
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding: 0;
-}
-
-#person_b {
-	background-image: url('../img/rebecca.jpg');
-	background-position: 50% 50%;
-	width: 128px;
-	height: 128px;
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding: 0;
-}
-
-.img-circle {
-	border-radius: 50%;
-}
-
 .caption {
 	margin-top: 10px;
 	margin-bottom: 0px;
@@ -636,17 +612,17 @@ p {
 	display: inline-block;
 	margin: 5px;
 	font-size: 100px;
-	border: 1px solid rgba(41, 128, 185, 0.4);
+	border: 1px solid rgb(41, 128, 185);
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	border-radius: 50%;
 }
 
 .carousel-indicators li.active {
-	background-color: rgba(41, 128, 185, 1.0);
+	background-color: rgb(41, 128, 185);
 }
 
-.gallery-photo {
+/*.gallery-photo {
 	border-radius: 0%;
 	background-position: 50% 50%;
 	width: 512px;
@@ -657,4 +633,4 @@ p {
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
-}
+}*/
