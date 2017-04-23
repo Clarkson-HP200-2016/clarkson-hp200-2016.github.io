@@ -81,7 +81,7 @@ In the ordered list insert the following code
 ```html
 <li data-target="#stories" data-slide-to="n+1"></li>
 ```
-where $n$ is the number of elements in the list before insertion. Additionally, the clas `active` denotes which carousel item is initially active
+where `n` is the number of elements in the list before insertion. Additionally, the clas `active` denotes which carousel item is initially active
 
 ### Carousel Items
 
@@ -102,3 +102,32 @@ To add a new carsouel item look for the following div tag, `<div class="carousel
 
 Gallery
 -------
+
+### Gallery Indicator
+
+### Gallery Item
+
+Contact
+-------
+
+### Social Media Links
+
+To update the social media links look for
+```html
+<ul class="social-links">
+	<li><a href="https://www.facebook.com/ThousandIslandsLandTrust/"><i class="fa fa-facebook"></i></a></li>
+	<li><a href="https://twitter.com/tilandtrust"><i class="fa fa-twitter"></i></a></li>
+	<li><a href="https://www.instagram.com/tilandtrust/"><i class="fa fa-instagram"></i></a></li>
+</ul>
+```
+and add the following where appropriate
+```html
+<li><a href="https://my-url"><i class="fa fa-my-icon"></i></a></li>
+```
+
+Updating More Technical Features
+================================
+
+Other sections in the webpage take more technical skill or experience with UI/UX design to
+write a comphrensive guide about. If you wish to update these section please consult someone
+expierenced in these areas
