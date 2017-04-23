@@ -64,3 +64,41 @@ TODO
 Testimonials
 ------------
 
+To add a new testimonial there are two sections of code to add: the carousel indicator and the quotation itself.
+
+### Carousel Indicator
+
+Look for the following section of code
+```html
+<div id="stories" class="carousel slide">
+	<ol class="carousel-indicators">
+		<li data-target="#stories" data-slide-to="0"></li>
+		<li data-target="#stories" data-slide-to="1" class="active"></li>
+	</ol>
+```
+
+In the ordered list insert the following code
+```html
+<li data-target="#stories" data-slide-to="n+1"></li>
+```
+where $n$ is the number of elements in the list before insertion. Additionally, the clas `active` denotes which carousel item is initially active
+
+### Carousel Items
+
+To add a new carsouel item look for the following div tag, `<div class="carousel-inner">`. Inside the tag add the following code
+```html
+<div class="item">
+	<div class="profile-circle" style="background-image: url('path-to-img')"></div>
+	<blockquote>
+		<p>
+			Quotation
+		</p>
+	</blockquote>
+	<div class="author">
+		- Name
+	</div>
+</div>
+```
+
+Gallery
+-------
