@@ -163,4 +163,4 @@ Updating More Technical Features
 
 Other sections in the webpage take more technical skill or experience with UI/UX design to
 write a comphrensive guide about. If you wish to update these section please consult someone
-expierenced in these areas
+experienced in these areas
