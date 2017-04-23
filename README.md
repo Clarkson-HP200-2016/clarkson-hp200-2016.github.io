@@ -3,6 +3,24 @@ Zenda Farms Website Documentation
 
 Documentation for how to modify the webpage.
 
+Table of Contents
+=================
+
+   * [Usage](#usage)
+   * [Layout](#layout)
+      * [Navbar](#navbar)
+      * [Timeline](#timeline)
+      * [Programs](#programs)
+      * [Testimonials](#testimonials)
+         * [Carousel Indicator](#carousel-indicator)
+         * [Carousel Items](#carousel-items)
+      * [Gallery](#gallery)
+         * [Gallery Indicator](#gallery-indicator)
+         * [Gallery Items](#gallery-items)
+      * [Contact](#contact)
+         * [Social Media Links](#social-media-links)
+   * [Updating More Technical Features](#updating-more-technical-features)
+
 Usage
 =====
 
