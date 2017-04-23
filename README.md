@@ -27,13 +27,10 @@ To add an extra link in the navbar find the following section of code
 	</ul>
 </div>
 ```
-Add the following under the ```<ul>``` tag
+Add the following under the `<ul>` tag
 ```html
 <li><a href="#my_id">My Name</a></li>
 ```
 
 Timeline
 --------
-
-
-
