@@ -10,7 +10,6 @@ Table of Contents
    * [Layout](#layout)
       * [Navbar](#navbar)
       * [Timeline](#timeline)
-      * [Programs](#programs)
       * [Testimonials](#testimonials)
          * [Carousel Indicator](#carousel-indicator)
          * [Carousel Items](#carousel-items)
@@ -70,14 +69,6 @@ Insert the following code where appropriate
 	</div>
 </li>
 ```
-
-Programs
---------
-
-This bit is a bit more complicated as there is two components, the card and the modal.
-First we'll add the card. Look for the section of code
-TODO
-
 
 Testimonials
 ------------
